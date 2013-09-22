@@ -1,0 +1,16 @@
+﻿<local:MainViewModel 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"       
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:Poche" 
+    SampleProperty="Valeur de propriété d'un texte d'exemple">
+    
+    <local:MainViewModel.Items>
+        <local:ItemViewModel Titre="conception une" URL="Maecenas praesent accumsan bibendum" Contenu="Maecenas praesent accumsan bibendum dictumst eleifend facilisi faucibus habitant inceptos interdum lobortis nascetur"/>
+        <local:ItemViewModel Titre="conception deux" URL="Dictumst eleifend facilisi faucibus" Contenu="Pharetra placerat pulvinar sagittis senectus sociosqu suscipit torquent ultrices vehicula volutpat maecenas praesent"/>
+        <local:ItemViewModel Titre="conception trois" URL="Habitant inceptos interdum lobortis" Contenu="Accumsan bibendum dictumst eleifend facilisi faucibus habitant inceptos interdum lobortis nascetur pharetra placerat"/>
+        <local:ItemViewModel Titre="conception quatre" URL="Nascetur pharetra placerat pulvinar" Contenu="Pulvinar sagittis senectus sociosqu suscipit torquent ultrices vehicula volutpat maecenas praesent accumsan bibendum"/>
+        <local:ItemViewModel Titre="conception cinq" URL="Sagittis senectus sociosqu suscipit" Contenu="Dictumst eleifend facilisi faucibus habitant inceptos interdum lobortis nascetur pharetra placerat pulvinar sagittis"/>
+        <local:ItemViewModel Titre="conception six" URL="Torquent ultrices vehicula volutpat" Contenu="Senectus sociosqu suscipit torquent ultrices vehicula volutpat maecenas praesent accumsan bibendum dictumst eleifend"/>
+    </local:MainViewModel.Items>
+    
+</local:MainViewModel>
