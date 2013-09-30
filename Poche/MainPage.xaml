@@ -24,10 +24,10 @@
         <!--TitlePanel contient le nom de l'application et le titre de la page-->
         <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
             <TextBlock x:Name="ApplicationTitle" Text="Poche" Style="{StaticResource PhoneTextNormalStyle}"/>
-            <TextBlock x:Name="PageTitle" Text="Derniers éléments" Margin="9,-7,0,0" FontSize="56"/>
+            <!--<TextBlock x:Name="PageTitle" Text="Derniers éléments" Margin="9,-7,0,0" FontSize="56"/>-->
             <RichTextBox TextWrapping="Wrap">
                 <Paragraph>
-                    <Run FontSize="25" Text="Bienvenue."></Run>
+                    <Run FontSize="55" Text="Bienvenue"></Run>
                 </Paragraph>
                 <Paragraph>
                     <Run Text="Pour le moment, l'application Poche permet uniquement d'ajouter un lien à votre Poche."></Run>
@@ -35,6 +35,10 @@
                 <Paragraph>
                     <Run Text="Les versions suivantes, grâce à l'API de Poche, permettront de lire les éléments directement (consutation hors-ligne possible). L'ajout de nouveaux articles se fera aussi directement."></Run>
                 </Paragraph>
+                <Paragraph>
+                    <Run FontStyle="Italic" Text="Version 0.0.1.1 Beta"></Run>
+                </Paragraph>
+                
             </RichTextBox>
         </StackPanel>
         

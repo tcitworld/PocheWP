@@ -12,6 +12,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
+using Mangopollo.Tiles;
 
 namespace Poche
 {
@@ -75,6 +76,36 @@ namespace Poche
                 PhoneApplicationService.Current.UserIdleDetectionMode = IdleDetectionMode.Disabled;
             }
 
+        }
+
+        private static Version TargetedVersion = new Version(7, 10, 8858);
+        public static bool IsTargetedVersion
+        {
+            get
+            {
+                return Environment.OSVersion.Version >= TargetedVersion;
+            }
+        }
+
+        void NouvellesTuiles()
+        {
+            if (App.IsTargetedVersion)
+            {
+                var tile = ShellTile.ActiveTiles.First();
+                var flipTileData = new FlipTileData
+                {
+                    SmallBackgroundImage = new Uri("/Images/tiles/poche159.png", UriKind.Relative),
+                    BackTitle = "Poche",
+                    BackContent = "",
+                    BackgroundImage = new Uri("/Images/tiles/poche336.png", UriKind.RelativeOrAbsolute),
+                    BackBackgroundImage = new Uri("/Images/tiles//poche336_2.png", UriKind.Relative),
+                    WideBackContent = "",
+                    WideBackgroundImage = new Uri("/Images/tiles/poche 691×336.png", UriKind.RelativeOrAbsolute),
+                    WideBackBackgroundImage = new Uri("/Images/tiles/poche 691×336_2.png", UriKind.Relative)
+                };
+                tile.Update(flipTileData);
+
+            }
         }
 
         // Code à exécuter lorsque l'application démarre (par exemple, à partir de Démarrer)

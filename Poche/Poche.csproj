@@ -30,7 +30,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>Bin\Debug</OutputPath>
+    <OutputPath>Bin\</OutputPath>
     <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
     <NoStdLib>true</NoStdLib>
     <NoConfig>true</NoConfig>
@@ -40,7 +40,7 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>Bin\Release</OutputPath>
+    <OutputPath>Bin\</OutputPath>
     <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
     <NoStdLib>true</NoStdLib>
     <NoConfig>true</NoConfig>
@@ -48,6 +48,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Mangopollo.Light">
+      <HintPath>..\packages\Mangopollo.Light.1.3\lib\sl4-windowsphone71\Mangopollo.Light.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Phone" />
     <Reference Include="Microsoft.Phone.Interop" />
     <Reference Include="system.data.linq" />
@@ -130,6 +133,7 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <None Include="packages.config" />
     <None Include="Properties\AppManifest.xml">
       <SubType>Designer</SubType>
     </None>
@@ -138,18 +142,26 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="ApplicationIcon.png">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
+    <Content Include="ApplicationIcon.png" />
     <Content Include="data.xml">
       <SubType>Designer</SubType>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Resource Include="refresh.png" />
-    <Resource Include="Images\floral_left.png" />
     <Content Include="Images\appbar_button1.png" />
-    <Resource Include="Images\poche.png" />
+    <Content Include="Images\poche.png" />
     <Resource Include="Images\refresh.png" />
+    <Resource Include="Images\poche99.png" />
+    <Resource Include="Images\poche300.png" />
+    <Resource Include="Images\poche200.png" />
+    <Resource Include="Images\poche173.png" />
+    <Resource Include="screenshot.png" />
+    <Resource Include="screenshot2.png" />
+    <Resource Include="Images\titles\poche 691×336.png" />
+    <Resource Include="Images\titles\poche 691×336_2.png" />
+    <Content Include="Images\titles\poche159.png" />
+    <Resource Include="Images\titles\poche336.png" />
+    <Resource Include="Images\titles\poche336_2.png" />
     <Content Include="SplashScreenImage.jpg" />
     <Content Include="Background.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

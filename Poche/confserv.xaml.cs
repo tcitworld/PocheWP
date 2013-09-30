@@ -22,11 +22,11 @@ namespace Poche
         {
             InitializeComponent();
             IsolatedStorageSettings settings = IsolatedStorageSettings.ApplicationSettings;
-            string loginsaved;
-            string passwordsaved;
+            //string loginsaved;
+            //string passwordsaved;
             string adresssaved;
-                if (settings.TryGetValue<string>("login", out loginsaved))
-                    if (settings.TryGetValue<string>("password", out passwordsaved))
+                //if (settings.TryGetValue<string>("login", out loginsaved))
+                   // if (settings.TryGetValue<string>("password", out passwordsaved))
                         if(settings.TryGetValue<string>("Adresse", out adresssaved))
                     {
                         adressePoche.Text = adresssaved;

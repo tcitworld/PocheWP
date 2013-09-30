@@ -18,6 +18,7 @@ using System.IO;
 using System.Xml;
 using System.Xml.Serialization;
 using System.Xml.Linq;
+using Mangopollo.Tiles;
 
 
 namespace Poche
@@ -120,6 +121,22 @@ namespace Poche
         {
             // goto à propos
             NavigationService.Navigate(new Uri("/about.xaml", UriKind.Relative));
+        }
+
+        public void updateTitle() { 
+        FlipTileData TileData = new FlipTileData()
+            {
+            Title = "Poche",
+            BackTitle = "[titre de la tuile arrière]",
+            BackContent = "[contenu de la tuile arrière]",
+            WideBackContent = "[contenu de la tuile arrière en affichage large]",
+            Count = 2,
+            SmallBackgroundImage = new Uri("/Images/tiles/poche159.png", UriKind.Relative),
+            BackgroundImage = new Uri("/Images/tiles/poche336.png", UriKind.RelativeOrAbsolute),
+            BackBackgroundImage = new Uri("/Images/tiles//poche336_2.png", UriKind.Relative),
+            WideBackgroundImage = new Uri("/Images/tiles/poche 691×336.png", UriKind.RelativeOrAbsolute),
+            WideBackBackgroundImage = new Uri("/Images/tiles/poche 691×336_2.png", UriKind.Relative)
+            };
         }
     }
 }
