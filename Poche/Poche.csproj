@@ -16,8 +16,7 @@
     <TargetFrameworkProfile>WindowsPhone71</TargetFrameworkProfile>
     <TargetFrameworkIdentifier>Silverlight</TargetFrameworkIdentifier>
     <SilverlightApplication>true</SilverlightApplication>
-    <SupportedCultures>
-    </SupportedCultures>
+    <SupportedCultures>fr;en;</SupportedCultures>
     <XapOutputs>true</XapOutputs>
     <GenerateSilverlightManifest>true</GenerateSilverlightManifest>
     <XapFilename>Poche.xap</XapFilename>
@@ -86,10 +85,16 @@
     <Compile Include="AddArticle.xaml.cs">
       <DependentUpon>AddArticle.xaml</DependentUpon>
     </Compile>
-    <Compile Include="String Library.Designer.cs">
+    <Compile Include="Resources\LocalizedStrings.cs" />
+    <Compile Include="Resources\AppResources.Designer.cs">
+      <DependentUpon>AppResources.resx</DependentUpon>
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>String Library.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\AppResources.fr.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.fr.resx</DependentUpon>
     </Compile>
     <Compile Include="ViewModels\Article.cs" />
     <Compile Include="ViewModels\ArticlesPresenter.cs" />
@@ -168,9 +173,13 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="String Library.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>String Library.Designer.cs</LastGenOutput>
+    <EmbeddedResource Include="Resources\AppResources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>AppResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.fr.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>AppResources.fr.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight for Phone\$(TargetFrameworkVersion)\Microsoft.Silverlight.$(TargetFrameworkProfile).Overrides.targets" />

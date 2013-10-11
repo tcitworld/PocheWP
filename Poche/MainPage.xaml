@@ -6,7 +6,7 @@
     xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
-    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="696" 
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="768" 
     d:DataContext="{d:DesignData SampleData/MainViewModelSampleData.xaml}"
     FontFamily="{StaticResource PhoneFontFamilyNormal}"
     FontSize="{StaticResource PhoneFontSizeNormal}"
@@ -27,18 +27,14 @@
             <!--<TextBlock x:Name="PageTitle" Text="Derniers éléments" Margin="9,-7,0,0" FontSize="56"/>-->
             <RichTextBox TextWrapping="Wrap">
                 <Paragraph>
-                    <Run FontSize="55" Text="Bienvenue"></Run>
+                    <Run FontSize="55" Text="{Binding Path=LocalizedResources.Welcome, Source={StaticResource LocalizedStrings}}"></Run>
                 </Paragraph>
                 <Paragraph>
-                    <Run Text="Pour le moment, l'application Poche permet uniquement d'ajouter un lien à votre Poche."></Run>
+                    <Run Text="{Binding Path=LocalizedResources.Intro, Source={StaticResource LocalizedStrings}}"></Run>
                 </Paragraph>
-                <Paragraph>
-                    <Run Text="Les versions suivantes, grâce à l'API de Poche, permettront de lire les éléments directement (consutation hors-ligne possible). L'ajout de nouveaux articles se fera aussi directement."></Run>
+                 <Paragraph>
+                     <Run FontStyle="Italic" Text="Version 1.0.0.2 Beta"></Run>
                 </Paragraph>
-                <Paragraph>
-                    <Run FontStyle="Italic" Text="Version 0.0.1.1 Beta"></Run>
-                </Paragraph>
-                
             </RichTextBox>
         </StackPanel>
         
@@ -58,15 +54,15 @@
     </Grid>
 
     <!--Exemple de code illustrant l'utilisation d'ApplicationBar-->
-    <phone:PhoneApplicationPage.ApplicationBar>
+    <!--<phone:PhoneApplicationPage.ApplicationBar>
         <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True">
-            <shell:ApplicationBarIconButton IconUri="/Images/appbar_button1.png" Text="Ajouter un article" Click="ApplicationBarIconButton_Click"/>
-            <!--<shell:ApplicationBarIconButton IconUri="refresh.png" Text="Actualiser" Click="ApplicationBarIconButton_Click_1"/>-->
+            <shell:ApplicationBarIconButton IconUri="/Images/appbar_button1.png" Text="{Binding Path=LocalizedResources.AddArticle, Source={StaticResource LocalizedStrings}}" Click="ApplicationBarIconButton_Click"/>
+            <shell:ApplicationBarIconButton IconUri="refresh.png" Text="Actualiser" Click="ApplicationBarIconButton_Click_1"/>
             <shell:ApplicationBar.MenuItems>
-                <!--<shell:ApplicationBarMenuItem Text="Préférences" Click="ApplicationBarMenuItem_Click"/>-->
-                <shell:ApplicationBarMenuItem Text="Configuration Serveur" Click="ApplicationBarMenuItem_Click_1"/>
-                <!--<shell:ApplicationBarMenuItem Text="A propos" Click="ApplicationBarMenuItem_Click_2"></shell:ApplicationBarMenuItem>-->
+                <shell:ApplicationBarMenuItem Text="Préférences" Click="ApplicationBarMenuItem_Click"/>
+                <shell:ApplicationBarMenuItem Text="{Binding Path=LocalizedResources.ConfServ, Source={StaticResource LocalizedStrings}}" Click="ApplicationBarMenuItem_Click_1"/>
+                <shell:ApplicationBarMenuItem Text="A propos" Click="ApplicationBarMenuItem_Click_2"></shell:ApplicationBarMenuItem>
             </shell:ApplicationBar.MenuItems>
         </shell:ApplicationBar>
-        </phone:PhoneApplicationPage.ApplicationBar>
+        </phone:PhoneApplicationPage.ApplicationBar>-->
 </phone:PhoneApplicationPage>

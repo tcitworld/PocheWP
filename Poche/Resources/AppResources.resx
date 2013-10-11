@@ -118,31 +118,43 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AddArticle" xml:space="preserve">
-    <value>Ajouter un article</value>
+    <value>Add an article</value>
+    <comment>Ajouter un article</comment>
   </data>
   <data name="AddNewArticle" xml:space="preserve">
-    <value>Ajout d'un nouvel article</value>
+    <value>Add a new article</value>
+    <comment>Ajout d'un nouvel article</comment>
   </data>
   <data name="ConfServ" xml:space="preserve">
-    <value>Configuration Serveur</value>
+    <value>Server Configuration</value>
+    <comment>Configuration Serveur</comment>
   </data>
   <data name="DerniersElements" xml:space="preserve">
-    <value>Derniers éléments</value>
+    <value>Last Elements</value>
+    <comment>Derniers éléments</comment>
   </data>
   <data name="Intro" xml:space="preserve">
-    <value>Bienvenue.
+    <value>For now, the poche app only allows to add a link to your poche.
                        
-Pour le moment, l'application Poche permet uniquement d'ajouter un lien à votre Poche.
+Next versions, thanks to poche's API, will allow you to read articles (offline consultation possible)  directly into app. Adding new articles will also be much easyier than today.</value>
+    <comment>Pour le moment, l'application Poche permet uniquement d'ajouter un lien à votre Poche.
                        
-Les versions suivantes, grâce à l'API de Poche, permettront de lire les éléments directement (consutation hors-ligne possible). L'ajout de nouveaux articles se fera aussi directement.</value>
+Les versions suivantes, grâce à l'API de Poche, permettront de lire les éléments directement (consutation hors-ligne possible). L'ajout de nouveaux articles se fera aussi directement.</comment>
   </data>
   <data name="PasteURLHere" xml:space="preserve">
-    <value>Collez votre URL ici.</value>
+    <value>Paste (or write) your URL here.</value>
+    <comment>Collez votre URL ici.</comment>
   </data>
   <data name="PocheAdress" xml:space="preserve">
-    <value>Adresse de votre page d'accueil Poche :</value>
+    <value>Your poche homepage's adress :</value>
+    <comment>Adresse de votre page d'accueil Poche :</comment>
   </data>
   <data name="Validate" xml:space="preserve">
-    <value>Valider</value>
+    <value>Enter</value>
+    <comment>Valider</comment>
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>Welcome</value>
+    <comment>Welcome</comment>
   </data>
 </root>

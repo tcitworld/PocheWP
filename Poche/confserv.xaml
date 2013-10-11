@@ -22,21 +22,21 @@
 
         <!--TitlePanel contient le nom de l'application et le titre de la page-->
         <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
-            <TextBlock x:Name="ApplicationTitle" Text="POCHE" Style="{StaticResource PhoneTextNormalStyle}"/>
-            <TextBlock x:Name="PageTitle" Text="Configuration Serveur" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle2Style}"/>
+            <TextBlock x:Name="ApplicationTitle" Text="poche" Style="{StaticResource PhoneTextNormalStyle}"/>
+            <TextBlock x:Name="PageTitle" Text="{Binding Path=LocalizedResources.ConfServ, Source={StaticResource LocalizedStrings}}" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle2Style}"/>
         </StackPanel>
 
         <!--ContentPanel - placez tout contenu supplémentaire ici-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0"></Grid>
         <StackPanel Margin="10,100,10,0">
-            <TextBlock Text="Adresse de votre page d'accueil Poche :"></TextBlock>
+            <TextBlock Text="{Binding Path=LocalizedResources.PocheAdress, Source={StaticResource LocalizedStrings}}"></TextBlock>
             <TextBox x:Name="adressePoche"></TextBox>
             <!--<TextBlock Text="Identifiant"></TextBlock>
             <TextBox x:Name="idPoche"></TextBox>
             <TextBlock Text="Mot de Passe"></TextBlock>
             <PasswordBox x:Name="passPoche"></PasswordBox>
             <TextBlock TextWrapping="Wrap" Foreground="Red" FontStyle="Italic" Text="Attention, votre mot de passe est enregistré et transmis non chiffré !" Height="69" Width="460"></TextBlock>-->
-            <Button x:Name="validateAdress" Content="Valider" Click="validateAdress_Click"></Button>
+            <Button x:Name="validateAdress" Content="{Binding Path=LocalizedResources.Validate, Source={StaticResource LocalizedStrings}}" Click="validateAdress_Click"></Button>
         </StackPanel>
         </Grid>
  

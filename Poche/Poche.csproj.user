@@ -3,6 +3,9 @@
   <PropertyGroup>
     <ProjectView>ShowAllFiles</ProjectView>
   </PropertyGroup>
+  <PropertyGroup>
+    <ReferencePath>C:\Users\Thomas Citharel\Documents\Visual Studio 2010\Projects\Poche\Poche\Resources\</ReferencePath>
+  </PropertyGroup>
   <ProjectExtensions>
     <VisualStudio>
       <FlavorProperties GUID="{C089C8C0-30E0-4E22-80C0-CE093F111A43}">

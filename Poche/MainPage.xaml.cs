@@ -19,6 +19,7 @@ using System.Xml;
 using System.Xml.Serialization;
 using System.Xml.Linq;
 using Mangopollo.Tiles;
+using Poche.Resources;
 
 
 namespace Poche
@@ -33,6 +34,7 @@ namespace Poche
             // Affecter l'exemple de données au contexte de données du contrôle ListBox
             DataContext = App.ViewModel;
             this.Loaded += new RoutedEventHandler(MainPage_Loaded);
+            BuildLocalizedApplicationBar();
 
             // créer le fichier
 
@@ -138,5 +140,26 @@ namespace Poche
             WideBackBackgroundImage = new Uri("/Images/tiles/poche 691×336_2.png", UriKind.Relative)
             };
         }
+        
+        // Build a localized ApplicationBar
+private void BuildLocalizedApplicationBar()
+{
+    // Set the page's ApplicationBar to a new instance of ApplicationBar.
+    ApplicationBar = new ApplicationBar();
+
+    // Create a new button and set the text value to the localized string from AppResources.
+    ApplicationBarIconButton appBarButton = 
+        new ApplicationBarIconButton(new
+        Uri("/Images/appbar_button1.png", UriKind.Relative));
+    appBarButton.Text = AppResources.AddArticle;
+    appBarButton.Click += new EventHandler(ApplicationBarIconButton_Click);
+    ApplicationBar.Buttons.Add(appBarButton);
+
+    // Create a new menu item with the localized string from AppResources.
+    ApplicationBarMenuItem appBarMenuItem =new ApplicationBarMenuItem(AppResources.ConfServ);
+    appBarMenuItem.Click += new EventHandler(ApplicationBarMenuItem_Click_1);
+    ApplicationBar.MenuItems.Add(appBarMenuItem);
+}
+
     }
 }

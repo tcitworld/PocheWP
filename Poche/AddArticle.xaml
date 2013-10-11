@@ -22,16 +22,16 @@
 
         <!--TitlePanel contient le nom de l'application et le titre de la page-->
         <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
-            <TextBlock x:Name="ApplicationTitle" Text="Poche" Style="{StaticResource PhoneTextNormalStyle}"/>
-            <TextBlock x:Name="PageTitle" Text="Ajout d'un nouvel article" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle2Style}"/>
+            <TextBlock x:Name="ApplicationTitle" Text="poche" Style="{StaticResource PhoneTextNormalStyle}"/>
+            <TextBlock x:Name="PageTitle" Text="{Binding Path=LocalizedResources.AddNewArticle, Source={StaticResource LocalizedStrings}}" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle2Style}"/>
         </StackPanel>
 
         <!--ContentPanel - placez tout contenu supplémentaire ici-->
         <Grid x:Name="ContentPanel" Grid.Row="3" Margin="1,0,2,0">
             <StackPanel>
-            <TextBlock x:Name="Info" Text="Collez votre URL ici." Margin="9,-7,0,0" Style="{StaticResource PhoneTextNormalStyle}"/>
+                <TextBlock x:Name="Info" Text="{Binding Path=LocalizedResources.PasteURLHere, Source={StaticResource LocalizedStrings}}" Margin="9,-7,0,0" Style="{StaticResource PhoneTextNormalStyle}"/>
             <TextBox x:Name="URLInput"></TextBox>
-            <Button x:Name="Validate" Content="Valider" Click="Validate_Click"></Button>
+                <Button x:Name="Validate" Content="{Binding Path=LocalizedResources.Validate, Source={StaticResource LocalizedStrings}}" Click="Validate_Click"></Button>
                 <!--<TextBlock x:Name="Status" Text="État"></TextBlock>-->
                 <!--<phone:WebBrowser Name="webBrowserControl" Margin="10,82,0,0" />-->
             </StackPanel>

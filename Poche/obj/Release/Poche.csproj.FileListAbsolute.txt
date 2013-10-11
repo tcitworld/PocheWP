@@ -12,10 +12,13 @@ C:\Users\Thomas Citharel\documents\visual studio 2010\Projects\Poche\Poche\obj\R
 C:\Users\Thomas Citharel\documents\visual studio 2010\Projects\Poche\Poche\obj\Release\about.g.i.cs
 C:\Users\Thomas Citharel\documents\visual studio 2010\Projects\Poche\Poche\obj\Release\preferences.g.i.cs
 C:\Users\Thomas Citharel\documents\visual studio 2010\Projects\Poche\Poche\obj\Release\Poche.g.resources
-C:\Users\Thomas Citharel\documents\visual studio 2010\Projects\Poche\Poche\obj\Release\Poche.String Library.resources
 C:\Users\Thomas Citharel\documents\visual studio 2010\Projects\Poche\Poche\obj\Release\Poche.csproj.GenerateResource.Cache
 C:\Users\Thomas Citharel\documents\visual studio 2010\Projects\Poche\Poche\obj\Release\Poche.dll
 C:\Users\Thomas Citharel\documents\visual studio 2010\Projects\Poche\Poche\obj\Release\Poche.pdb
 C:\Users\Thomas Citharel\documents\visual studio 2010\Projects\Poche\Poche\obj\Release\XapCacheFile.xml
 C:\Users\Thomas Citharel\documents\visual studio 2010\Projects\Poche\Poche\Bin\Mangopollo.Light.dll
 C:\Users\Thomas Citharel\documents\visual studio 2010\Projects\Poche\Poche\obj\Release\Poche.csprojResolveAssemblyReference.cache
+C:\Users\Thomas Citharel\Documents\Visual Studio 2010\Projects\Poche\Poche\obj\Release\Poche.Resources.AppResources.resources
+C:\Users\Thomas Citharel\Documents\Visual Studio 2010\Projects\Poche\Poche\obj\Release\Poche.Resources.AppResources.fr.resources
+C:\Users\Thomas Citharel\Documents\Visual Studio 2010\Projects\Poche\Poche\Bin\fr\Poche.resources.dll
+C:\Users\Thomas Citharel\Documents\Visual Studio 2010\Projects\Poche\Poche\obj\Release\fr\Poche.resources.dll
