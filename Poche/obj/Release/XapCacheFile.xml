@@ -1,16 +1,17 @@
-﻿<xapCache source="C:\Users\Thomas Citharel\Documents\Visual Studio 2010\Projects\Poche\Poche\Bin\Poche.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="10/10/2013 19:24:53">
+﻿<xapCache source="C:\Users\Thomas Citharel\Documents\Visual Studio 2010\Projects\Poche\Poche\Bin\Poche.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="18/11/2013 21:43:34">
   <file source="C:\Users\Thomas Citharel\Documents\Visual Studio 2010\Projects\Poche\Poche\Bin\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="26/09/2013 18:07:04" />
   <file source="C:\Users\Thomas Citharel\Documents\Visual Studio 2010\Projects\Poche\Poche\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="26/09/2013 16:14:07" />
   <file source="C:\Users\Thomas Citharel\Documents\Visual Studio 2010\Projects\Poche\Poche\Images\poche.png" archivePath="Images\poche.png" lastWriteTime="26/09/2013 16:18:59" />
-  <file source="C:\Users\Thomas Citharel\Documents\Visual Studio 2010\Projects\Poche\Poche\obj\Release\Poche.dll" archivePath="Poche.dll" lastWriteTime="10/10/2013 19:24:52" />
+  <file source="C:\Users\Thomas Citharel\Documents\Visual Studio 2010\Projects\Poche\Poche\obj\Release\Poche.dll" archivePath="Poche.dll" lastWriteTime="18/11/2013 21:43:33" />
   <file source="C:\Users\Thomas Citharel\Documents\Visual Studio 2010\Projects\Poche\packages\Mangopollo.Light.1.3\lib\sl4-windowsphone71\Mangopollo.Light.dll" archivePath="Mangopollo.Light.dll" lastWriteTime="26/09/2013 16:53:03" />
-  <file source="C:\Users\Thomas Citharel\Documents\Visual Studio 2010\Projects\Poche\Poche\obj\Release\fr\Poche.resources.dll" archivePath="fr\Poche.resources.dll" lastWriteTime="10/10/2013 19:24:52" />
+  <file source="C:\Users\Thomas Citharel\Documents\Visual Studio 2010\Projects\Poche\packages\Newtonsoft.Json.5.0.8\lib\portable-net40+sl4+wp7+win8\Newtonsoft.Json.dll" archivePath="Newtonsoft.Json.dll" lastWriteTime="18/11/2013 21:33:34" />
+  <file source="C:\Users\Thomas Citharel\Documents\Visual Studio 2010\Projects\Poche\Poche\obj\Release\fr\Poche.resources.dll" archivePath="fr\Poche.resources.dll" lastWriteTime="18/11/2013 21:43:33" />
   <file source="C:\Users\Thomas Citharel\Documents\Visual Studio 2010\Projects\Poche\Poche\data.xml" archivePath="data.xml" lastWriteTime="12/08/2013 14:33:37" />
   <file source="C:\Users\Thomas Citharel\Documents\Visual Studio 2010\Projects\Poche\Poche\Images\appbar_button1.png" archivePath="Images\appbar_button1.png" lastWriteTime="22/09/2013 17:34:01" />
   <file source="C:\Users\Thomas Citharel\Documents\Visual Studio 2010\Projects\Poche\Poche\Images\titles\poche159.png" archivePath="Images\titles\poche159.png" lastWriteTime="26/09/2013 16:54:48" />
   <file source="C:\Users\Thomas Citharel\Documents\Visual Studio 2010\Projects\Poche\Poche\SplashScreenImage.jpg" archivePath="SplashScreenImage.jpg" lastWriteTime="26/09/2013 16:28:12" />
   <file source="C:\Users\Thomas Citharel\Documents\Visual Studio 2010\Projects\Poche\Poche\Background.png" archivePath="Background.png" lastWriteTime="09/08/2013 21:46:28" />
-  <file source="C:\Users\Thomas Citharel\Documents\Visual Studio 2010\Projects\Poche\Poche\Bin\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="10/10/2013 18:28:10" />
+  <file source="C:\Users\Thomas Citharel\Documents\Visual Studio 2010\Projects\Poche\Poche\Bin\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="18/11/2013 21:43:34" />
   <file source="C:\Users\Thomas Citharel\Documents\Visual Studio 2010\Projects\Poche\Poche\Bin\data.xml" archivePath="data.xml" lastWriteTime="12/08/2013 14:33:37" />
   <file source="C:\Users\Thomas Citharel\Documents\Visual Studio 2010\Projects\Poche\Poche\Bin\Background.png" archivePath="Background.png" lastWriteTime="09/08/2013 21:46:28" />
 </xapCache>

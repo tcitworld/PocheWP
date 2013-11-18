@@ -22,3 +22,5 @@ C:\Users\Thomas Citharel\Documents\Visual Studio 2010\Projects\Poche\Poche\obj\R
 C:\Users\Thomas Citharel\Documents\Visual Studio 2010\Projects\Poche\Poche\obj\Release\Poche.Resources.AppResources.fr.resources
 C:\Users\Thomas Citharel\Documents\Visual Studio 2010\Projects\Poche\Poche\Bin\fr\Poche.resources.dll
 C:\Users\Thomas Citharel\Documents\Visual Studio 2010\Projects\Poche\Poche\obj\Release\fr\Poche.resources.dll
+C:\Users\Thomas Citharel\Documents\Visual Studio 2010\Projects\Poche\Poche\Bin\Newtonsoft.Json.dll
+C:\Users\Thomas Citharel\Documents\Visual Studio 2010\Projects\Poche\Poche\Bin\Newtonsoft.Json.xml
